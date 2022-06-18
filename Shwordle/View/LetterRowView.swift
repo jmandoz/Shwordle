@@ -9,12 +9,12 @@ import SwiftUI
 import UIKit
 
 struct LetterRowView: View {
-    @Binding var model: [GuessModel]
+    @Binding var model: [GuessModel]?
     var answer: GuessModel
     typealias cs = Constants
     
     var body: some View {
-        ForEach(model) { m in
+        ForEach(model ?? []) { m in
             HStack {
                 GuessSquareView(letter: m.space1, color: backgroundColor(answerLetter: answer.space1, letter: m.space1))
                 GuessSquareView(letter: m.space2, color: backgroundColor(answerLetter: answer.space2, letter: m.space2))

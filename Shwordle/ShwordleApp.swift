@@ -11,8 +11,7 @@ import SwiftUI
 struct ShwordleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(GameViewModel())
+            ContentView(gameVm: GameViewModel())
         }
     }
 }
