@@ -15,6 +15,6 @@ struct Constants {
     static let tileHeight: CGFloat = 50
     
     // Text Field
-    static let textFieldWidth: CGFloat = 200
-    static let textFieldHeight: CGFloat = 50
+    static let textFieldWidth: CGFloat = 300
+    static let textFieldHeight: CGFloat = 100
 }
