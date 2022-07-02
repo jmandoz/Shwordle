@@ -23,7 +23,7 @@ struct GuessModel: Identifiable, Hashable {
         self.space5 = string[4].uppercased()
     }
     
-    var combine: String {
+    func combine() -> String {
         space1+space2+space3+space4+space5
     }
 }

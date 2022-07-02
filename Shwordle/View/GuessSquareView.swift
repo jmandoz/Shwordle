@@ -26,6 +26,7 @@ struct GuessSquareView: View {
                        alignment: .center)
                 .padding(3)
             Text(letter)
+                .foregroundColor(.white)
         }
         .background(color)
     }

@@ -17,7 +17,8 @@ struct TextFieldGuessView: View {
         TextField(title, text: $gameVm.text)
             .disableAutocorrection(true)
             .onSubmit {
-                if gameVm.state == .enterWord {
+                switch gameVm.state {
+                case .enterWord:
                     if gameVm.text.count == 5 {
                         self.gameVm.text = gameVm.text
                         self.gameVm.answer = GuessModel(string: gameVm.text)
@@ -27,7 +28,7 @@ struct TextFieldGuessView: View {
                         gameVm.text.removeAll()
                         return
                     }
-                } else if gameVm.state == .inGame {
+                case .inGame:
                     guard !gameVm.text.isEmpty && gameVm.text.count == 5 else {
                         gameVm.text.removeAll()
                         return
@@ -48,6 +49,8 @@ struct TextFieldGuessView: View {
                     if gameVm.currentTurn == 5 {
                         gameVm.state = .lose
                     }
+                case .initialized, .win, .lose:
+                    break
                 }
             }
             .disabled(gameVm.currentTurn==5)

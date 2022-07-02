@@ -12,7 +12,7 @@
 		4C221B552849A6FE0006E9E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C221B542849A6FE0006E9E0 /* ContentView.swift */; };
 		4C221B572849A7000006E9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C221B562849A7000006E9E0 /* Assets.xcassets */; };
 		4C221B5A2849A7000006E9E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C221B592849A7000006E9E0 /* Preview Assets.xcassets */; };
-		4C221B632849A9D80006E9E0 /* LetterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C221B622849A9D80006E9E0 /* LetterRowView.swift */; };
+		4C221B632849A9D80006E9E0 /* PreviousGuessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C221B622849A9D80006E9E0 /* PreviousGuessesView.swift */; };
 		4C221B652849B0290006E9E0 /* TextFieldGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C221B642849B0290006E9E0 /* TextFieldGuessView.swift */; };
 		4C221B672849B0A50006E9E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C221B662849B0A50006E9E0 /* Constants.swift */; };
 		4C530C6B284ACA070010CF5E /* GuessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C530C6A284ACA070010CF5E /* GuessModel.swift */; };
@@ -28,7 +28,7 @@
 		4C221B542849A6FE0006E9E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C221B562849A7000006E9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C221B592849A7000006E9E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C221B622849A9D80006E9E0 /* LetterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRowView.swift; sourceTree = "<group>"; };
+		4C221B622849A9D80006E9E0 /* PreviousGuessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousGuessesView.swift; sourceTree = "<group>"; };
 		4C221B642849B0290006E9E0 /* TextFieldGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldGuessView.swift; sourceTree = "<group>"; };
 		4C221B662849B0A50006E9E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4C530C6A284ACA070010CF5E /* GuessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessModel.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 				4C221B542849A6FE0006E9E0 /* ContentView.swift */,
 				4CFFAA7828541FF200DF2720 /* GuessSquareView.swift */,
 				4C221B642849B0290006E9E0 /* TextFieldGuessView.swift */,
-				4C221B622849A9D80006E9E0 /* LetterRowView.swift */,
+				4C221B622849A9D80006E9E0 /* PreviousGuessesView.swift */,
 				4C0F379D285D4E42000092F8 /* LiveGuessRowView.swift */,
 			);
 			path = View;
@@ -191,7 +191,7 @@
 				4C221B552849A6FE0006E9E0 /* ContentView.swift in Sources */,
 				4CFFAA7928541FF200DF2720 /* GuessSquareView.swift in Sources */,
 				4C0F379E285D4E42000092F8 /* LiveGuessRowView.swift in Sources */,
-				4C221B632849A9D80006E9E0 /* LetterRowView.swift in Sources */,
+				4C221B632849A9D80006E9E0 /* PreviousGuessesView.swift in Sources */,
 				4C530C6B284ACA070010CF5E /* GuessModel.swift in Sources */,
 				4C221B652849B0290006E9E0 /* TextFieldGuessView.swift in Sources */,
 				4C221B532849A6FE0006E9E0 /* ShwordleApp.swift in Sources */,
